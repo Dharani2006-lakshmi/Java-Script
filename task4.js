@@ -4,7 +4,7 @@ let operator = prompt("Enter operator (+, -, *, /):");
 let result;
 
 if (isNaN(num1) || isNaN(num2)) {
-  alert("Please enter valid numbers.");
+  console.log("Please enter valid numbers.");
 } else {
   switch (operator) {
     case '+':
@@ -27,5 +27,5 @@ if (isNaN(num1) || isNaN(num2)) {
       result = "Invalid operator.";
   }
 
-  alert("Result: " + result);
+  console.log("Result: " + result);
 }
